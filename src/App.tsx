@@ -121,7 +121,7 @@ function App() {
 
     useEffect(() => {
         // Play welcome audio and then start speech recognition immediately after
-        const audio = new Audio('/seen.mp3'); // Path to your audio file in the public directory
+        const audio = new Audio('/aseen.mp3'); // Path to your audio file in the public directory
         audio.play();
         audio.onended = () => {
             console.log("Welcome audio has finished playing.");
